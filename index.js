@@ -36,4 +36,4 @@ class classes {
 
 // chamar tipo desejado .... saida
     tipoMonge.attack()
-    tipoGuerreiro.attack()
+    tipoNinja.attack()
