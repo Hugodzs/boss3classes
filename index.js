@@ -24,7 +24,7 @@ class classes{
                 ataqueType = "apenas suas mãos"
                 break  
         }
-        console.log (`${this.name} o ${this.hero} atacou usando ${ataqueType}`)
+        console.log (`${this.name} o ${this.age} atacou usando ${ataqueType}`)
     }
 }
 
@@ -33,4 +33,4 @@ class classes{
     let tipoMonge = new classes("higor","9","monge")
     let tipoNinja = new classes("Higor","10","ninja")
 
-    tipoMago(attack)
+    tipoMago.attack
