@@ -34,3 +34,4 @@ class classes {
     let tipoNinja = new classes("Higor","10","ninja")
 
     tipoMonge.attack()
+    tipoGuerreiro.attack()
