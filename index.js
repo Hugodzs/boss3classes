@@ -1,4 +1,4 @@
-class classes{
+class profission {
     constructor(name, age, type){
         this.name = name
         this.age = age
@@ -33,4 +33,4 @@ class classes{
     let tipoMonge = new classes("higor","9","monge")
     let tipoNinja = new classes("Higor","10","ninja")
 
-    tipoMago.attack
+    tipoMago.attack()
