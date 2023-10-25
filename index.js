@@ -12,19 +12,19 @@ class classes {
                 ataqueType = "espadas"
                 break
             case "mago":
-                ataqueType = "bola de fogo"
+                ataqueType = "magia"
                 break
-            case "cavaleiro":
-                ataqueType = "espada sagrada"
+            case "monge":
+                ataqueType = "Artes marciais"
                 break
-            case "anão":
-                ataqueType = "machado de guerra"
+            case "ninja":
+                ataqueType = "shuriken"
                 break 
             default:
                 ataqueType = "apenas suas mãos"
                 break  
         }
-        console.log (`${this.name} de idade ${this.age} e da classe ${this.type}atacou usando ${ataqueType}`)
+        console.log (`${this.name} de idade ${this.age} e da classe ${this.type} atacou usando ${ataqueType}`)
     }
 }
 
@@ -33,4 +33,4 @@ class classes {
     let tipoMonge = new classes("higor","9","monge")
     let tipoNinja = new classes("Higor","10","ninja")
 
-    tipoMago.attack()
+    tipoMonge.attack()
