@@ -24,7 +24,7 @@ class classes {
                 ataqueType = "apenas suas mãos"
                 break  
         }
-        console.log (`${this.name} o ${this.age} atacou usando ${ataqueType}`)
+        console.log (`${this.name} de idade ${this.age} e da classe ${this.type}atacou usando ${ataqueType}`)
     }
 }
 
