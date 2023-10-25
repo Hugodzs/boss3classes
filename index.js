@@ -2,7 +2,6 @@ class classes{
     constructor(nome,tipo){
         this.nome = nome
         this.tipo = tipo
-        this.ataque = ataque
     }
     attack(){
         if(tipo === mago){this.ataque = "usou magia"}
