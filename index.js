@@ -4,6 +4,7 @@ class classes {
         this.age = age
         this.type = type
      }
+     //metodo de ataque
     attack(){
         let ataqueType = ""
 
@@ -21,10 +22,10 @@ class classes {
                 ataqueType = "shuriken"
                 break 
             default:
-                ataqueType = "apenas suas mãos"
+                ataqueType = "Erro Fatal"
                 break  
         }
-        console.log (`${this.name} tem ${this.age} anos de idade e é da classe ${this.type} atacou usando ${ataqueType}`)
+        console.log (`${this.name} tem ${this.age} anos de idade e é da classe ${this.type} atacou usando ${ataqueType}!`)
     }
 }
 
@@ -33,5 +34,6 @@ class classes {
     let tipoMonge = new classes("Higor","9","monge")
     let tipoNinja = new classes("Higor","10","ninja")
 
+// chamar tipo desejado .... saida
     tipoMonge.attack()
     tipoGuerreiro.attack()
